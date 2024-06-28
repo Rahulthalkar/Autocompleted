@@ -1,0 +1,30 @@
+ <p>auto-complete works!</p>
+<div class="h-screen">
+    <h1 class="heading-primary text-center p-5">auto-complete works</h1>
+       <div class="flex justify-center ">
+           <form nz-form [formGroup]="autoTextForm" class="p-5" (ngSubmit)="submitForm()">
+               <nz-form-item>
+               <nz-form-control nzErrorTip="Please select item">
+                   <nz-input-group >
+                       <input
+                       placeholder='auto-complete'
+                       nz-input
+                       formControlName="name"
+                       [nzAutocomplete]="auto"
+                       class="p-2 border rounded-md"
+                   />
+                   <nz-autocomplete [compareWith]="compareFun" [nzDataSource]="filteredOptions" #auto>
+                    @for (item of filteredOptions; track $index) {
+                        <nz-auto-option [nzValue]='item.id' [nzLabel]='item.name'>{{item.name}} </nz-auto-option>
+                    }
+                    </nz-autocomplete>
+                
+                   </nz-input-group>
+               </nz-form-control>
+               </nz-form-item>
+               <button nz-button class="w-full" [nzType]="'primary'">Add Items</button>
+
+           </form>
+       </div>   
+      
+</div>

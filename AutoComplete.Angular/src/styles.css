@@ -1,0 +1,48 @@
+@tailwind base;
+
+* {
+    scrollbar-width: thin;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #a60a3d;
+    --color-danger: #ff2424;
+    --title-color: #323643;
+    --sub-title-color: #555555;
+    --border-color: #b7bfca;
+    --place-holder-color: #a8a9ae;
+    --border-light-color: #DBDFE4;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+@layer utilities {
+    .text-input {
+        @apply p-2 rounded-md !important;
+    }
+
+    .theme-btn {
+        @apply h-12 font-medium rounded-md !important;
+    }
+
+    .form-select {
+        @apply w-full rounded-md !important;
+    }
+   
+}
+.heading-primary {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    line-height: 32px;
+    font-weight: 600;
+    color: var(--sub-title-color);
+}
+
+.ant-form label {
+    color: var(--title-color) !important;
+}

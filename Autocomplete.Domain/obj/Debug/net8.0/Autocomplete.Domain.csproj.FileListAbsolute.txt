@@ -1,0 +1,12 @@
+D:\AutocompleteSearch\Autocomplete.Domain\bin\Debug\net8.0\Autocomplete.Domain.deps.json
+D:\AutocompleteSearch\Autocomplete.Domain\bin\Debug\net8.0\Autocomplete.Domain.dll
+D:\AutocompleteSearch\Autocomplete.Domain\bin\Debug\net8.0\Autocomplete.Domain.pdb
+D:\AutocompleteSearch\Autocomplete.Domain\obj\Debug\net8.0\Autocomplete.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\AutocompleteSearch\Autocomplete.Domain\obj\Debug\net8.0\Autocomplete.Domain.AssemblyInfoInputs.cache
+D:\AutocompleteSearch\Autocomplete.Domain\obj\Debug\net8.0\Autocomplete.Domain.AssemblyInfo.cs
+D:\AutocompleteSearch\Autocomplete.Domain\obj\Debug\net8.0\Autocomplete.Domain.csproj.CoreCompileInputs.cache
+D:\AutocompleteSearch\Autocomplete.Domain\obj\Debug\net8.0\Autocomplete.Domain.sourcelink.json
+D:\AutocompleteSearch\Autocomplete.Domain\obj\Debug\net8.0\Autocomplete.Domain.dll
+D:\AutocompleteSearch\Autocomplete.Domain\obj\Debug\net8.0\refint\Autocomplete.Domain.dll
+D:\AutocompleteSearch\Autocomplete.Domain\obj\Debug\net8.0\Autocomplete.Domain.pdb
+D:\AutocompleteSearch\Autocomplete.Domain\obj\Debug\net8.0\ref\Autocomplete.Domain.dll
